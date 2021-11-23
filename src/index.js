@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import Synthesizer from "./pages/Synthesizer";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Synthesizer />
   </React.StrictMode>,
   document.getElementById('root')
 );
